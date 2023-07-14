@@ -4,6 +4,7 @@ import Landing from "../components/Landing";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import Generate from "../components/Generate";
 
 const settings = {
     dots: true,
@@ -18,13 +19,16 @@ const settings = {
 const Home = () => {
     return (
         <div>
-        <div className="forcou ">
+        <div className="ebox">
         <Slider {...settings}>
-          <div className="forcou" style={{height: "100%"}}>
+          <div className="ebox">
             <Landing />
           </div>
-          <div className="forcou">
-            <h1>2</h1>
+          <div className="ebox">
+            <h1>Horizontal carousal here</h1>
+          </div>
+          <div className="ebox">
+            <Generate />
           </div>
         </Slider>
         </div>

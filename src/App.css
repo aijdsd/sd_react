@@ -55,9 +55,13 @@
   /* overflow: hidden; */
 }
 
-.forcou{
-  border:2px solid red;
+.ebox{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  overflow: hidden;
   height:100vh;
+  width: 100vw;
 }
 
 .onSplit{
