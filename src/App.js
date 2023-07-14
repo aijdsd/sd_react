@@ -19,11 +19,3 @@ const App = () => {
 };
 
 export default App;
-
-{/* <BrowserRouter >
-        <Title/>
-        <Routes>
-          <Route path='/' element={< Home />}></Route>
-          <Route path='/display' element={< Display />}></Route>
-        </Routes>
-      </BrowserRouter> */}
