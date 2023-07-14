@@ -7,7 +7,7 @@ const Display = () => {
         <ImageListItem key={index}>
           <img
             src={item.img}
-            alt={item.title}
+            alt="aijd"
             loading="lazy"
           />
         </ImageListItem>
@@ -18,20 +18,16 @@ const Display = () => {
 
 const itemData = [
   {
-    img: '../pics/antelope_0a37838e99.jpg',
-    title: 'Breakfast',
+    img: 'https://drive.google.com/uc?id=1IcgaC-hLD3JadF4vc70C64t1-n6vwTgL',
   },
   {
-    img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
-    title: 'Burger',
+    img: 'https://drive.google.com/uc?id=1W9GReHwgXUuKR7Yvlun__Q1ubnu8rjcP',
   },
   {
-    img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
-    title: 'Camera',
+    img: 'https://drive.google.com/uc?id=16UvQjMduAeJx6ud6waQyh3We70xrksej',
   },
   {
-    img: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c',
-    title: 'Coffee',
+    img: 'https://drive.google.com/uc?id=1SGATqUfwS5WIIrhkqRmzU4NWGsEa_2wP',
   },
 ];
 

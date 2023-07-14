@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sd_react/static/css/main.d08e1a6c.css",
+    "main.js": "/sd_react/static/js/main.cbbdb6c1.js",
+    "index.html": "/sd_react/index.html",
+    "main.d08e1a6c.css.map": "/sd_react/static/css/main.d08e1a6c.css.map",
+    "main.cbbdb6c1.js.map": "/sd_react/static/js/main.cbbdb6c1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d08e1a6c.css",
+    "static/js/main.cbbdb6c1.js"
+  ]
+}
