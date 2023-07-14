@@ -16,6 +16,14 @@ const settings = {
     verticalSwiping: true,
   };
 
+const CategoriesSettings = {
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+};
+
 const Home = () => {
     return (
         <div>
@@ -25,7 +33,17 @@ const Home = () => {
             <Landing />
           </div>
           <div className="ebox">
-            <h1>Horizontal carousal here</h1>
+            <Slider {...CategoriesSettings}>
+              <div className="cbox">
+                <h1>category 1</h1>
+              </div>
+              <div className="cbox">
+                <h1>category 2</h1>
+              </div>
+              <div className="cbox">
+                <h1>category 3</h1>
+              </div>
+            </Slider>
           </div>
           <div className="ebox">
             <Generate />
