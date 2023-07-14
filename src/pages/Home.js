@@ -17,11 +17,15 @@ const settings = {
   };
 
 const CategoriesSettings = {
+    accessibility:true,
+    autoplay:true,
+    autoplaySpeed:2500,
     dots: true,
-    infinite: false,
-    speed: 500,
+    infinite: true,
+    speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
+    draggable:false
 };
 
 const Home = () => {
@@ -32,18 +36,23 @@ const Home = () => {
           <div className="ebox">
             <Landing />
           </div>
-          <div className="ebox">
+          <div className="eboxTwo">
+            <div className="forSlider">
             <Slider {...CategoriesSettings}>
               <div className="cbox">
-                <h1>category 1</h1>
+                <h1>Necklace</h1>
               </div>
               <div className="cbox">
-                <h1>category 2</h1>
+                <h1>Rings</h1>
               </div>
               <div className="cbox">
-                <h1>category 3</h1>
+                <h1>Bracelet & Bangles</h1>
+              </div>
+              <div className="cbox">
+                <h1>Mangalsutra & Brooch & Kundan and more...</h1>
               </div>
             </Slider>
+              </div>
           </div>
           <div className="ebox">
             <Generate />

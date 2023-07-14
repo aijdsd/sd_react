@@ -65,18 +65,34 @@
 }
 
 .onSplit{
-  border:2px solid red;
   height:100vh;
+  /* border:2px solid red; */
 }
 
 .forAdv{
-  border:2px solid green;
   height:100px;
   text-align: center;
+  /* border:2px solid green; */
 }
 
 
 .cbox{
-  border:2px solid pink;
-  height: 100vh;
+  height:90vh;
+  margin-top:5vh;
+  /* border:2px solid pink; */
+  
+}
+.eboxTwo{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  overflow: hidden;
+  height:100vh;
+  /* border:2px solid red; */
+}
+.forSlider{
+  height:50vh;
+  width: 95vw;
+  margin:auto;
+  /* border:2px solid orchid; */
 }
