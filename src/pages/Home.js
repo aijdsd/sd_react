@@ -1,23 +1,33 @@
-import { Box, Button } from "@mui/material";
 import React from "react";
-import '../App.css'
-import { Link } from "react-router-dom";
+import '../App.css';
+import Landing from "../components/Landing";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
+const settings = {
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    vertical: true,
+    verticalSwiping: true,
+  };
 
 const Home = () => {
     return (
-        <div className="bl-bg">
-            <Box sx={{
-                width: 800,
-                height: 300,
-                backgroundColor: 'grey',
-                }}>
-            <center><h1>
-                Explore
-            </h1>
-            <div>
-            <Button variant="contained" color="primary" ><Link to='/Display'>
-                Click Me!</Link>
-            </Button></div></center></Box>
+        <div>
+        <div className="forcou ">
+        <Slider {...settings}>
+          <div className="forcou" style={{height: "100%"}}>
+            <Landing />
+          </div>
+          <div className="forcou">
+            <h1>2</h1>
+          </div>
+        </Slider>
+        </div>
         </div>
     )
 };

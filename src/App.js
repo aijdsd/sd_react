@@ -1,13 +1,13 @@
 import * as React from 'react';
 import {  BrowserRouter, Route,  Routes } from 'react-router-dom';
-import Home from './pages/Home';
 import Display from './pages/Display';
-import TitleBar from './components/TitleBar';
+import Landing from './components/Landing';
+import Home from './pages/Home';
 
 const App = () => {
   return (
     <BrowserRouter basename="/sd_react">
-      <TitleBar />
+      {/* <TitleBar /> */}
       <div>
         <Routes>
           <Route path='/' element={<Home />}></Route>
