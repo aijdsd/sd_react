@@ -6,7 +6,7 @@ import Home from './pages/Home';
 
 const App = () => {
   return (
-    <BrowserRouter basename="/sd_react">
+    <BrowserRouter>
       {/* <TitleBar /> */}
       <div>
         <Routes>
