@@ -1,8 +1,7 @@
 import React from 'react';
-import { ImageList, ImageListItem } from '@mui/material';
-
 import TitleBar from '../components/TitleBar';
 import Split from '../components/Split';
+import Generate from '../components/Generate';
 
 const Display = () => {
   return (
@@ -11,7 +10,7 @@ const Display = () => {
     <TitleBar/>
     <Split/>
     <Split/>
-    <Split/>
+    <Generate />
 
     </>
   );
