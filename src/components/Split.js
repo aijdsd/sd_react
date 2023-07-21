@@ -1,10 +1,12 @@
 import React from 'react';
-import { ImageList, ImageListItem } from '@mui/material';
 import Ran from './rangen';
 
 function Split() {
   return (
+    <div className = "onSplit">
     <Ran />
+    <h1>Advertisement</h1>
+    </div>
   )
 }
 

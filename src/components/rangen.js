@@ -1,3 +1,4 @@
+import { ImageList, ImageListItem } from '@mui/material';
 import flist from "./flist";
 
 const Ran = () => {
@@ -8,16 +9,17 @@ const Ran = () => {
     }
 
     return (
-        <div>
-            <div>
-                {valz.map((smth) => (<div>
-                    <p>
-                        {flist[smth].id}
-                    </p>
-                    <img src={"https://drive.google.com/uc?id="+flist[smth].id}></img></div>
+            <ImageList sx={{ width: 500, height: 400 }} cols={3} rowHeight={180}>
+                {valz.map((pos) => (
+                    <ImageListItem key={flist[pos].id}>
+                    <img
+                        src={"https://drive.google.com/uc?id="+flist[pos].id}
+                        alt="aijd"
+                        loading="lazy"
+                    />
+                    </ImageListItem>
                 ))}
-            </div>
-        </div>
+            </ImageList>
     )
 }
 
