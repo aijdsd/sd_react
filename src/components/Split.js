@@ -3,7 +3,7 @@ import Ran from './rangen';
 
 function Split() {
   return (
-    <div className = "onSplit">
+    <div className = "container">
     <Ran />
     <h1>Advertisement</h1>
     </div>
